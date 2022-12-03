@@ -1,6 +1,6 @@
 print ('Калькулятор')
-prodolzhit = 'c'
-while prodolzhit == 'c':
+continue = 'c'
+while continue == 'c':
     f_num = float(input('Введите первое число:'))
     oper = input('Введите операцию:')
     s_num = float(input('Введите второе число:'))
@@ -14,4 +14,4 @@ while prodolzhit == 'c':
         print(f_num / s_num)
     else:
         print ('Error')
-prodolzhit = input('Напишите "C" чтобы продолжить')        
+continue = input('Чтобы продолжить, напишите "C"')        
